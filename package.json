@@ -1,0 +1,21 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "获取必应的壁纸",
+  "author": "Guo",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "win": "electron-builder --win --x64",
+    "pack": "electron-builder -w"
+  },
+  "dependencies": {
+    "request": "^2.88.2",
+    "wallpaper": "^4.4.1"
+  },
+  "devDependencies": {
+    "electron": "^8.2.2",
+    "request": "^2.88.2",
+    "wallpaper": "^4.4.1"
+  }
+}
